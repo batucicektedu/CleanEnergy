@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7748751064205495406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7748751064205495407}
+  - component: {fileID: 7748751064205495404}
+  m_Layer: 0
+  m_Name: PoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7748751064205495407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7748751064205495406}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7748751064205495404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7748751064205495406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0096a0ab61c20584ab8dfe0b6465a178, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - prefab: {fileID: 7999153855615414582, guid: 5b38c6fa1307f4747beb9aeabf573427, type: 3}
+    maximumInstances: 50
+    poolType: 10
+    pool: {fileID: 0}
+  - prefab: {fileID: 2924065207177552685, guid: 53d31af52839dda43baebbdc8c249784, type: 3}
+    maximumInstances: 50
+    poolType: 15
+    pool: {fileID: 0}
+  - prefab: {fileID: 2704342005594072471, guid: b36b4ae7d28597c45a850e04275e1072, type: 3}
+    maximumInstances: 3
+    poolType: 50
+    pool: {fileID: 0}
+  - prefab: {fileID: 6831213309074332164, guid: 8d60967befd3bd449b218b60c0e74eb5, type: 3}
+    maximumInstances: 3
+    poolType: 55
+    pool: {fileID: 0}
+  - prefab: {fileID: 2088867138172752767, guid: 5ee28485fc6ec994db8ece0f467c3a87, type: 3}
+    maximumInstances: 3
+    poolType: 60
+    pool: {fileID: 0}
+  - prefab: {fileID: 285767352357657657, guid: c1e967915b35fba4ca5acf655859d839, type: 3}
+    maximumInstances: 4
+    poolType: 65
+    pool: {fileID: 0}
+  - prefab: {fileID: 4397030834649141285, guid: 48b1eb602135173429700751eb184db4, type: 3}
+    maximumInstances: 3
+    poolType: 70
+    pool: {fileID: 0}
+  - prefab: {fileID: 3494623905180062582, guid: 07d70a0cf658f954bb0f9ecf4d789c12, type: 3}
+    maximumInstances: 3
+    poolType: 75
+    pool: {fileID: 0}
+  - prefab: {fileID: 1172231426902122512, guid: 4ca184a12548bf94eacbffbb27e4a329, type: 3}
+    maximumInstances: 3
+    poolType: 100
+    pool: {fileID: 0}
+  - prefab: {fileID: 1495183755451163812, guid: f0501d84bb785f343b01940aace9e145, type: 3}
+    maximumInstances: 3
+    poolType: 105
+    pool: {fileID: 0}
+  - prefab: {fileID: 1169273000796130744, guid: ad5ab2699eadc7a40a75001a9ef9d60b, type: 3}
+    maximumInstances: 3
+    poolType: 110
+    pool: {fileID: 0}
+  - prefab: {fileID: 6851039419412241422, guid: ef01124ec2f5261448203d1704900ee9, type: 3}
+    maximumInstances: 3
+    poolType: 115
+    pool: {fileID: 0}
+  - prefab: {fileID: 1098617241891473987, guid: 1712bc670904a8949a730a99b01183df, type: 3}
+    maximumInstances: 3
+    poolType: 120
+    pool: {fileID: 0}
+  - prefab: {fileID: 4574992224496138130, guid: 13fc054c3f445b140a41c259f38a366a, type: 3}
+    maximumInstances: 3
+    poolType: 125
+    pool: {fileID: 0}
+  - prefab: {fileID: 5982848450229085180, guid: 661d94bbaf50b13478bfa3acd279822d, type: 3}
+    maximumInstances: 1
+    poolType: 200
+    pool: {fileID: 0}
+  - prefab: {fileID: 545117362486263765, guid: faba42022fd812b489788b192a1b6758, type: 3}
+    maximumInstances: 1
+    poolType: 205
+    pool: {fileID: 0}
+  - prefab: {fileID: 7007430752193087624, guid: e4dbea19e407a2b47b33cdd6193066eb, type: 3}
+    maximumInstances: 1
+    poolType: 210
+    pool: {fileID: 0}
+  - prefab: {fileID: 2297967950539591565, guid: 89a8eb5c3e3a3634ba21bf00abb70b6a, type: 3}
+    maximumInstances: 1
+    poolType: 215
+    pool: {fileID: 0}
+  - prefab: {fileID: 4084724416049247764, guid: 3ffdf87fd9ddeda489a7bfd20209dfd0, type: 3}
+    maximumInstances: 1
+    poolType: 220
+    pool: {fileID: 0}
+  - prefab: {fileID: 6454859943658782545, guid: 860dd8977ccd3784898b2c941b4b653c, type: 3}
+    maximumInstances: 1
+    poolType: 225
+    pool: {fileID: 0}
+  - prefab: {fileID: 1289972545485322906, guid: f7a69841cd74b0444a2e5a538f17e1ff, type: 3}
+    maximumInstances: 1
+    poolType: 300
+    pool: {fileID: 0}
+  - prefab: {fileID: 1289972545485322906, guid: 53e9febff8f3e12449394f85a44b0f2b, type: 3}
+    maximumInstances: 1
+    poolType: 305
+    pool: {fileID: 0}
+  - prefab: {fileID: 1289972545485322906, guid: 55e65909a0b75e84f82aeb12f29e0150, type: 3}
+    maximumInstances: 1
+    poolType: 310
+    pool: {fileID: 0}
+  - prefab: {fileID: 1289972545485322906, guid: 21ea7aa393f2d5c4c96762073432dbbc, type: 3}
+    maximumInstances: 1
+    poolType: 400
+    pool: {fileID: 0}
+  - prefab: {fileID: 1289972545485322906, guid: 7a8603f1264e3b2459fe05aa8411b2c7, type: 3}
+    maximumInstances: 1
+    poolType: 405
+    pool: {fileID: 0}
+  - prefab: {fileID: 1289972545485322906, guid: 715c6e4fe0390bf41a6dd1005ddf09f9, type: 3}
+    maximumInstances: 1
+    poolType: 410
+    pool: {fileID: 0}
+  - prefab: {fileID: 8817128841089787187, guid: 7f08d19b28605ea438d55bff606bd25e, type: 3}
+    maximumInstances: 400
+    poolType: 11
+    pool: {fileID: 0}
+  - prefab: {fileID: 4047412187180814756, guid: 10e8b57a87b880444940594f117c46c7, type: 3}
+    maximumInstances: 300
+    poolType: 500
+    pool: {fileID: 0}
+  - prefab: {fileID: 5285511316697467679, guid: ed8c5309ac6f4404d9244c49e5714305, type: 3}
+    maximumInstances: 200
+    poolType: 505
+    pool: {fileID: 0}
+  - prefab: {fileID: 6671656473599304779, guid: 224e7a67cbf15d045a2192c2f426bdde, type: 3}
+    maximumInstances: 100
+    poolType: 510
+    pool: {fileID: 0}
+  - prefab: {fileID: 8896289420205026672, guid: e2e3d24f7ac1c0d45b0a047045b61479, type: 3}
+    maximumInstances: 1000
+    poolType: 515
+    pool: {fileID: 0}
+  - prefab: {fileID: 4778735127135500903, guid: 8cc61954f516b5445b280482916d158b, type: 3}
+    maximumInstances: 1
+    poolType: 520
+    pool: {fileID: 0}
+  - prefab: {fileID: 1547679965977053706, guid: 98f04911fd269a240bf30c85cffb4867, type: 3}
+    maximumInstances: 200
+    poolType: 511
+    pool: {fileID: 0}
+  - prefab: {fileID: 7847050747254215300, guid: 5d4a93bb88ee4e743aa9037b988f13f7, type: 3}
+    maximumInstances: 200
+    poolType: 516
+    pool: {fileID: 0}
+  - prefab: {fileID: 3192206237104128195, guid: 22431163d204aa24a8aa0aa061c8afa4, type: 3}
+    maximumInstances: 100
+    poolType: 600
+    pool: {fileID: 0}
+  - prefab: {fileID: 8301449585848402743, guid: a9fc84e181f138444b34a7cf4671e508, type: 3}
+    maximumInstances: 50
+    poolType: 605
+    pool: {fileID: 0}

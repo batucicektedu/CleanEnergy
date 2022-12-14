@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eff7a970ede84164a980b74d7d65f7fb, type: 3}
+  m_Name: PanelWithCurrencyAmountsSettings
+  m_EditorClassIdentifier: 
+  textScaleIncreaseAmount: 1.1
+  textAnimDurationScaleUp: 0.01
+  textAnimDurationScaleDown: 0.015
+  textIncreaseColor: {r: 0, g: 1, b: 0, a: 1}
+  textDecreaseColor: {r: 1, g: 0, b: 0, a: 1}
+  countDuration: 0.1
+  imageScaleIncreaseAmount: 1.1
+  imageAnimationDuration: 0.3
+  waitingDurationBeforeAmountChangeOnNormalAnim: 0.25
+  flyingCurrencyAmountToBeCreated: 15
+  randomPositionRadius: 250
+  randomPositionMoveDuration: 0.7
+  randomPositionMoveDelayRange: {x: 0.01, y: 0.15}
+  currencyImagePositionMoveDuration: 0.6
+  currencyImagePositionMoveDelayRange: {x: 0.01, y: 0.15}
+  flyingCurrencyImageReachScale: 1
+  movingEase: 4
